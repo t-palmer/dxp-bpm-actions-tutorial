@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JavaActions>
+    <ActionGroup name="Foo Actions">
+        <Action name="Add Foo">
+            <Description>Add the text Foo as a suffix to the given UDA.</Description>
+            <ClassName>com.fujitsu.actions.FooActions</ClassName>
+            <MethodName>addFoo(String)</MethodName>
+            <EditorClassName>com.fujitsu.actions.gui.FooActionsGUI</EditorClassName>
+            <Parameters>
+                <Param name="Input"/>
+            </Parameters>
+        </Action>
+        <Action name="Append to Process Instance Name">
+            <Description>Add the text as a suffix to the Process Instance Name.</Description>
+            <ClassName>com.fujitsu.actions.FooActions</ClassName>
+            <MethodName>appendToProcessName(ServerEnactmentContext,String)</MethodName>
+            <EditorClassName>com.fujitsu.actions.gui.FooActionsGUI</EditorClassName>
+            <Parameters>
+                <Param name="Server Context"/>
+                <Param name="Input"/>
+            </Parameters>
+        </Action>
+    </ActionGroup>
+</JavaActions>
+        
